@@ -9,8 +9,8 @@ namespace tests
         public void value_test()
         {
             main_vich test_class = new main_vich();
-            int Result = test_class.get_count(5000, 100, 7, 2, 3, 1.1);
-            Assert.AreEqual(Result,3);
+            int Result = test_class.get_count(5000, 10, 7, 2, 3, 1.1);
+            Assert.AreEqual(Result,1);
         }
        public void test_devide_zero()
         {
