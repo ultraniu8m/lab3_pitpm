@@ -18,8 +18,11 @@ namespace lab3_pitpm
                 int n = Convert.ToInt32(L / C);
                 Console.WriteLine(n);
                 return n;
-            };
+            }
+            else
+            {
             return -11;
+            }
         }
 
         public int get_average_count_of_two(int n1, int n2)
